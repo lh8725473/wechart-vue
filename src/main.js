@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Mint from 'mint-ui'
 
+import './assets/iconfont.css'
 import 'mint-ui/lib/style.css'
 import App from './App'
 

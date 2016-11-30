@@ -16,12 +16,18 @@
           v-model="sheetVisible">
         </mt-actionsheet>
         <ul>
+            <li>
+              <i class="icon iconfont icon-appreciate"></i>
+              <div class="name">appreciate</div>
+              <div class="fontclass">.icon-appreciate</div>
+            </li>
             <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
             <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
             <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
             <li><a @click="handleClick">awesome-vue</a></li>
         </ul>
         <mt-switch v-model="value"></mt-switch>
+
     </div>
 </template>
 
